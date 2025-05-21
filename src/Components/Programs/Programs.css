@@ -41,5 +41,32 @@
     padding-top: 0%;
 }
 .pro-img{
-    height: 285px;
+    height: auto;
+}
+/*---media query--*/
+
+@media (max-width: 650px){
+    .programs{
+        flex-direction: column;
+    }
+    .program{
+        flex-basis: 100%;
+        margin: 20px;
+    }
+    .pro-img{
+        height: 200px;
+        
+    }
+}
+@media (min-width: 1150px){
+    .pro-img{
+        height: 290px;
+    }
+}
+
+
+@media (max-width: 650px){
+    .pro-img{
+        height: 460px;
+    }
 }

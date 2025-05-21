@@ -16,3 +16,32 @@
 .new-img{
     height: 265px;
 }
+/*---media query--*/
+
+@media (max-width: 800px){
+    .gallery{
+        flex-wrap: wrap;
+    }
+    .gallery img{
+        width: 48%;
+        margin-bottom: 25px;
+
+    }
+    .new-img{
+        height: 100px;
+    }
+    
+}
+
+@media (max-width: 1150px){
+    
+    .new-img{
+        height: 270px;
+    }
+}
+@media (max-width: 450px){
+    
+    .new-img{
+        height: 210px;
+    }
+}
